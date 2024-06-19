@@ -1,6 +1,5 @@
-import router from './routes/index';
-
 const express = require('express');
+const router = require('./routes/index');
 
 const port = parseInt(process.env.PORT, 10) || 5000;
 
